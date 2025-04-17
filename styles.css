@@ -14,14 +14,21 @@ main {
     width: 100vw;
 }
 
-div {
+#card {
     background-color: beige;
-    padding: 20px;
+    border-radius: 20px;
+    padding: 15px;
     width: 100%;
     max-width: 320px;
 }
 
 #illustration {
-    object-fit: cover;
+    border-radius: 10px;
+    object-fit: none;
     width: 100%;
+}
+
+#head-shot {
+    display: flex;
+    align-items: center;
 }
