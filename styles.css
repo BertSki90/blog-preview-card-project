@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+div {
+    background-color: beige;
+    padding: 20px;
+    width: 100%;
+    max-width: 320px;
+}
+
+#illustration {
+    object-fit: cover;
+    width: 100%;
+}
