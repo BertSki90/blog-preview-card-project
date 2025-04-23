@@ -47,9 +47,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
-- HTML, Set up HTML structure. First the card was created. Starting from the top of the card and working down the elements were structured in that order. The last 2 elements were put in a div element to keep them together for styling purposes.
+- HTML, Set up HTML structure. First the card was created. Starting from the top of the card and working down, the elements were structured in that order. The last 2 elements were put in a div element to keep them together for styling purposes.
 
-- CSS, Start with getting image element to fit inside of the card. Then set the profile picture and name inline with each other to better visualize the styling.
+- CSS, Start with getting image element to fit inside of the card. Then set the profile picture and name inline with each other to better visualize the styling. The colors, font size, and fonts were added to the stylesheet and applied to the HTML following the instructions from the style guide. All the elements were then styled working from top of the screen to bottom.
 
 ### Built with
 
@@ -66,7 +66,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+For inline dislay the margin top and bottom properties do not work.
 
 To see how you can add code snippets, see below:
 

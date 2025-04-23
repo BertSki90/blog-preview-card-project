@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+.figtree-500 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.figtree-800 {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+:root {
+--Yellow: hsl(47, 88%, 63%);
+--White: hsl(0, 0%, 100%);
+--Gray-500: hsl(0, 0%, 42%);
+--Gray-950: hsl(0, 0%, 7%);
+}
+
 *,
 *::before,
 *::after {
@@ -6,8 +29,14 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Figtree;
+    font-size: 16px;
+}
+
 main {
     align-items: center;
+    background-color: var(--Yellow);
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -15,8 +44,9 @@ main {
 }
 
 #card {
-    background-color: beige;
+    background-color: var(--White);
     border-radius: 20px;
+    box-shadow:  10px 10px 0 1px var(--Gray-950);
     padding: 15px;
     width: 100%;
     max-width: 320px;
@@ -24,8 +54,30 @@ main {
 
 #illustration {
     border-radius: 10px;
+    margin-bottom: 30px;
     object-fit: none;
     width: 100%;
+}
+
+label {
+    background-color: var(--Yellow);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+/* CONTINUE FROM LEGEND (rough copy) */
+legend {
+    margin-top: 20px;
+}
+
+label,
+legend,
+h1,
+h2 {
+    color: var(--Gray-950);
+}
+
+p {
+    color: var(--Gray-500);
 }
 
 #head-shot {
