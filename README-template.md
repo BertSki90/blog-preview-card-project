@@ -99,7 +99,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [Web3Schools](https://www.w3schools.com/css/css3_object-fit.asp) - Clearifies the object-fit properties and values. It made working with the top image easier.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Web3Schools](https://www.w3schools.com/cssref/css3_pr_box-shadow.php) - Great guidance for using the box-shadow property.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
