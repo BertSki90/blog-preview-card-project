@@ -111,6 +111,8 @@ h2 {
     margin-left: 10px;
 }
 
+/* Find out how to make font-size responsive */
+
 @media (max-width: 480px) {
     main {
         background-color: pink;
