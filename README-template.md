@@ -100,6 +100,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - [Web3Schools](https://www.w3schools.com/css/css3_object-fit.asp) - Clearifies the object-fit properties and values. It made working with the top image easier.
 - [Web3Schools](https://www.w3schools.com/cssref/css3_pr_box-shadow.php) - Great guidance for using the box-shadow property.
+- [Web3Schools](https://www.w3schools.com/cssref/css3_pr_text-justify.php) - How to justify text.
+- [FreeCodeCamp](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/) - Provide clear breakpoionts for different sizes of screens.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 

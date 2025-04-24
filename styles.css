@@ -45,28 +45,41 @@ main {
 
 #card {
     background-color: var(--White);
+    border: 2px solid var(--Gray-950);
     border-radius: 20px;
-    box-shadow:  10px 10px 0 1px var(--Gray-950);
-    padding: 15px;
+    box-shadow:  5px 5px 0 1px var(--Gray-950);
+    padding: 20px;
     width: 100%;
-    max-width: 320px;
+    max-width: 330px;
 }
 
 #illustration {
     border-radius: 10px;
-    margin-bottom: 30px;
-    object-fit: none;
+    margin-bottom: 20px;
+    object-fit: contain;
     width: 100%;
 }
 
 label {
     background-color: var(--Yellow);
     border-radius: 5px;
+    font-size: 0.7rem;
     padding: 5px 10px;
 }
-/* CONTINUE FROM LEGEND (rough copy) */
+
 legend {
+    font-size: 0.7rem;
     margin-top: 20px;
+}
+
+h1 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+h1:hover {
+    color: var(--Yellow);
+    cursor: pointer;
 }
 
 label,
@@ -78,9 +91,37 @@ h2 {
 
 p {
     color: var(--Gray-500);
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    text-justify: justify;
 }
 
 #head-shot {
-    display: flex;
     align-items: center;
+    display: flex;
+    margin: 20px 0 0;
+}
+
+#head-shot img {
+    width: 2rem;
+}
+
+h2 {
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+
+@media (max-width: 480px) {
+    main {
+        background-color: pink;
+    }
+
+    #card {
+        max-width: 320px;
+    }
+
+    #illustration {
+        height: 12.4rem;
+        object-fit: none;
+    }
 }
