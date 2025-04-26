@@ -30,13 +30,13 @@ Users should be able to:
 
 ### Screenshot
 
-![HTML](screenshots\blog-preview-card-screenshot-html1.png)
-![HTML](screenshots\blog-preview-card-screenshot-html2.png)
+![HTML lines 1-29 ](./screenshots/blog-preview-card-screenshot-html1.png)
+![HTML line 29-45](./screenshots/blog-preview-card-screenshot-html2.png)
 
-![CSS](screenshots\blog-preview-card-screenshot-css1.png)
-![CSS](screenshots\blog-preview-card-screenshot-css2.png)
-![CSS](screenshots\blog-preview-card-screenshot-css3.png)
-![CSS](screenshots\blog-preview-card-screenshot-css4.png)
+![CSS lines 1-37](./screenshots/blog-preview-card-screenshot-css1.png)
+![CSS lines 37-73](./screenshots/blog-preview-card-screenshot-css2.png)
+![CSS lines 74-110](./screenshots/blog-preview-card-screenshot-css3.png)
+![CSS lines 104-119](./screenshots/blog-preview-card-screenshot-css4.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
