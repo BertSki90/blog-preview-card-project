@@ -30,7 +30,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![HTML](screenshots\blog-preview-card-screenshot-html1.png)
+![HTML](screenshots\blog-preview-card-screenshot-html2.png)
+
+![CSS](screenshots\blog-preview-card-screenshot-css1.png)
+![CSS](screenshots\blog-preview-card-screenshot-css2.png)
+![CSS](screenshots\blog-preview-card-screenshot-css3.png)
+![CSS](screenshots\blog-preview-card-screenshot-css4.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -51,44 +57,72 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - CSS, Start with getting image element to fit inside of the card. Then set the profile picture and name inline with each other to better visualize the styling. The colors, font size, and fonts were added to the stylesheet and applied to the HTML following the instructions from the style guide. All the elements were then styled working from top of the screen to bottom.
 
+- CSS touchups, The same image needed to appear slightly different on the mobile version than on the desktop version. Replacing font-size values to match the design.
+
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
 For inline dislay the margin top and bottom properties do not work.
 
-To see how you can add code snippets, see below:
+The clamp() value that helps the text become responsive, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<label class="figtree-800">Learning</label>
 ```
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+label {
+  background-color: var(--Yellow);
+  border-radius: 5px;
+  font-size: clamp(0.7rem, 2vw, 0.8rem);
+  padding: 5px 10px;
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
+To get the image to appear slightly different on a mobile screen, see below:
+
+```html
+<img
+  src="assets\images\illustration-article.svg"
+  id="illustration"
+  alt="Coding syntax"
+/>
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+```css
+@media (max-width: 480px) {
+  #illustration {
+    object-fit: none;
+  }
+}
+```
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+To achieve having the avatar picture and name next to each other and vertically centering the name inside of the element, see below:
+
+```html
+<div id="head-shot">
+  <img
+    src="assets\images\image-avatar.webp"
+    id="avatar-image"
+    alt="Profile picture"
+  />
+  <h2 class="figtree-800">Greg Hooper</h2>
+</div>
+```
+
+```css
+#head-shot {
+  align-items: center;
+  display: flex;
+  margin: 20px 0 0;
+}
+```
 
 ### Continued development
 
@@ -102,6 +136,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Web3Schools](https://www.w3schools.com/cssref/css3_pr_box-shadow.php) - Great guidance for using the box-shadow property.
 - [Web3Schools](https://www.w3schools.com/cssref/css3_pr_text-justify.php) - How to justify text.
 - [FreeCodeCamp](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/) - Provide clear breakpoionts for different sizes of screens.
+- [YouTube, DesignCourse](https://www.youtube.com/watch?time_continue=300&v=dg488RrpNTc&embeds_referring_euri=https%3A%2F%2Fforum.freecodecamp.org%2F&source_ve_path=MzY4NDIsMzY4NDIsMzY4NDIsMjg2NjY) - The video had great insights on how to make the text responsive using the clamp as the value for font-size. The premise is like so, "font-size: clamp(min size, growth in vw, max size);".
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 

@@ -63,17 +63,17 @@ main {
 label {
     background-color: var(--Yellow);
     border-radius: 5px;
-    font-size: 0.7rem;
+    font-size: clamp(0.7rem, 2vw, 0.8rem);
     padding: 5px 10px;
 }
 
 legend {
-    font-size: 0.7rem;
+    font-size: clamp(0.7rem, 2vw, 0.75rem);
     margin-top: 20px;
 }
 
 h1 {
-    font-size: 1.2rem;
+    font-size: clamp(1.2rem, 3vw, 1.3rem);
     margin: 10px 0;
 }
 
@@ -91,7 +91,7 @@ h2 {
 
 p {
     color: var(--Gray-500);
-    font-size: 0.85rem;
+    font-size: clamp(0.85rem, 2vw, 0.9rem);
     line-height: 1.2rem;
     text-justify: justify;
 }
@@ -111,19 +111,9 @@ h2 {
     margin-left: 10px;
 }
 
-/* Find out how to make font-size responsive */
-
 @media (max-width: 480px) {
-    main {
-        background-color: pink;
-    }
-
-    #card {
-        max-width: 320px;
-    }
 
     #illustration {
-        height: 12.4rem;
         object-fit: none;
     }
 }
