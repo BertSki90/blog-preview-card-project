@@ -50,7 +50,8 @@ main {
     box-shadow:  5px 5px 0 1px var(--Gray-950);
     padding: 20px;
     width: 100%;
-    max-width: 330px;
+    /* max-width: 330px; */
+    max-width: 375px;
 }
 
 #illustration {
